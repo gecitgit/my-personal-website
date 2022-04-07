@@ -1,0 +1,134 @@
+body{
+    background-image: url(./images/full-body.jpg);
+    margin:0;
+    padding: 0;
+    padding-left: 100px;
+    padding-right: 25px;
+    font-weight: 70;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.name-card {
+    letter-spacing: .3em;
+    color: #532244;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-weight: 900;
+    font-size: 5vw;
+    width: 65%;
+    -webkit-text-stroke: 1px white;
+    margin-top: 15px;
+    padding-left: 2%;
+}
+
+.subname {
+    letter-spacing: .1em;
+    color:#532244;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-weight: 900;
+    font-size: 2vw;
+    width: 35%;
+    margin-top: 2%;
+    -webkit-text-stroke: .5px white;
+}
+
+p{
+    background-color: white;
+
+}
+
+#face {
+    height: 35%;
+    width: 35%;
+    justify-content: center;
+    border: 5px solid black;
+    float: inline-end;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 10px rgb(54, 52, 52);
+}
+
+#poop {
+    text-align: center;
+    background-color: white;
+    width: 50%;
+}
+
+#poop h3 {
+    background-color: #4a0221;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+#left-menu {
+    background-color: #532244;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* z-index: 1; */
+}
+
+#main-menu ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    align-items: center;
+    position: relative;
+    color: green;
+    border-bottom: 2px solid lightgrey;
+    text-align: center;
+}
+
+
+.nav-pics {
+    position: relative;
+    font-size: 64px;
+}
+
+#bar-socials {
+    float: left;
+}
+
+#socialbar-container {
+    bottom: 15px;
+    padding-bottom: 2%;
+    position: absolute;
+    float: left;
+}
+
+.socialbar {
+    float: left;
+    background-color: #532244;
+    width: 5vw;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+}
+

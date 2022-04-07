@@ -1,3 +1,173 @@
 body{
-    background: blue;
+    background-color: rgb(91, 92, 92);
+    margin:0;
+    padding: 0;
+    padding-left: 100px;
+    padding-right: 25px;
+    font-weight: 70;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#face {
+    height: 35%;
+    width: 35%;
+    justify-content: center;
+    border: 5px solid black;
+    float: right;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 10px rgb(54, 52, 52);
+    margin-top: 1%;
+}
+
+
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+#left-menu {
+    background-color: rgb(92, 78, 78);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* z-index: 1; */
+}
+
+#main-menu ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    align-items: center;
+    position: relative;
+    color: green;
+    border-bottom: 2px solid lightgrey;
+    text-align: center;
+}
+
+
+.nav-pics {
+    position: relative;
+    font-size: 64px;
+}
+
+#about-info {
+    width: 60%;
+    float: left;
+    color: lightgreen;
+    font-size: 2.5vh;
+}
+
+#about-header {
+    margin-top: 5%;
+    line-height: 0;
+    padding: 0;
+}
+
+#project-page-header{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+
+}
+.projects {
+    margin: 0;
+    padding: 0;
+    max-width: 80%;
+    width: auto;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+]}
+
+#project-title {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+   
+
+
+}
+
+.project-description {
+    padding: 0;
+    margin: 0;
+    vertical-align: left;
+    display: grid;
+    max-width: 25%;
+    width: 38%;
+    gap: 2em;
+}
+
+.project-picture > img {
+    max-width: 35%;
+    display: grid;
+    float: right;
+    gap: 2em;
+}
+
+div.gal-pics {
+    border: 1px solid black;
+}
+
+div.gal-pics:hover {
+    border: 1px solid green;
+}
+
+div.gal-pics img {
+    width: 100%;
+    height: auto;
+}
+
+div.gal-descrip {
+    padding: 15px;
+    text-align: center;
+    font-size: smaller;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.resize-gallery-box {
+    padding: 0 6px;
+    float: left;
+    width: 24.9999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .resize-gallery-box {
+        width: 49.9999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .resize-gallery-box{
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
