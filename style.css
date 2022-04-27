@@ -301,6 +301,7 @@ div.gal-pics img {
 .gal-box {
     position: relative;
     display: none;
+    margin-bottom: 100px;
 }
 
 #imgtext {
@@ -310,6 +311,7 @@ div.gal-pics img {
     color: white;
     font-size: 20px;
     background-color: #532244;
+
 }
 
 .closebtn {
