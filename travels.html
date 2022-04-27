@@ -2,8 +2,10 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./style.css"/>
+        <script src="./script.js"></script>
         <title>My Travels</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
     </head>
     <body>
         <div id="left-menu">
@@ -49,114 +51,90 @@
                 </ul>
             </nav>
         </div>
-
-        <h1>Random picture gallery</h1>
-        <h4>A small collection of random pictures I've accumulated over the past few years. The page should be interactive!</h4>
-
-        <div class="resize-gallery-box">
-            <div class="gal-pics">
-                <a href="./images/gallery/bow bridge.jpg">
-                    <img src="./images/gallery/bow bridge.jpg" alt="Bow Bridge" width="600" height="400">
-                </a>
-            <div class="gal-descrip">Bow Bridge in Central Park         
-            </div>
-            </div>
-        </div>
-
-        <!--
-        <div class="resize-gallery-box">
-            <div class="gal-pics">
-                <a href="./images/gallery/cat.JPG">
-                    <img src="./images/gallery/cat.JPG" alt="Cat in Dubrovnik" width="600" height="400">
-                </a>
-                <div class="gal-descrip">Random cat in Dubrovnik
-                </div>
-            </div>
-        </div>
-        -->
-
-        <div class="resize-gallery-box">
-            <div class="gal-pics">
-                <a href="./images/gallery/syrikalter.jpg">
-                    <img src="./images/gallery/syrikalter.jpg" alt="Syri i Kalter" width="600" height="400">
-                </a>
-                <div class="gal-descrip"> <a href="https://en.wikipedia.org/wiki/Blue_Eye,_Albania">Syri i Kalter in Southern Albania</a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="resize-gallery-box">
-            <div class="gal-pics">
-                <a href="./images/gallery/dubrovnik.jpg">
-                    <img src="./images/gallery/dubrovnik.jpg" alt="Dubrovnik" width="600" height="400">
-                </a>
-                <div class="gal-descrip">Overlooking Dubrovnik, Croatia
-                    
-                </div>
-            </div>
-        </div>
-
-        <!--
-        <div class="resize-gallery-box">
-            <div class="gal-pics">
-                <a href="./images/gallery/theater.JPG">
-                    <img src="./images/gallery/theater.JPG" alt="Butrint" width="600" height="400">
-                </a>
-                <div class="gal-descrip">Amphitheater in Butrint, Albania
-                    
-                </div>
-            </div>
-        </div>
-        -->
-
         
-            <div class="resize-gallery-box">
+        <div id="project-page-header">
+            <h1>My Travels</h1>
+            <p>Here is a small collection of some random pictures I've collected over my various trips over the years.  I wanted to create a dynamic display that relied on media queries which led me down quite the rabbit hole.</p>
+        </div>    
+
+        <div class="resize-gallery-box">
             <div class="gal-pics">
-                <a href="./images/gallery/valbone.jpg">
-                    <img src="./images/gallery/valbone.jpg" alt="Snow in Valbone" width="600" height="400">
-                </a>
-                <div class="gal-descrip">Some snowfall in Valbona National Park
-                    
-                </div>
+                <img src="./images/gallery/bow bridge.jpg" alt="Bow Bridge in Central Park" width="600" height="400" onclick="largePicture(this);">
+            
+            </div>
+        </div>
+        
+
+        <div class="resize-gallery-box">
+            <div class="gal-pics">
+                    <img src="./images/gallery/syrikalter.jpg" alt="Syri i Kalter in southern Albania" width="600" height="400" onclick="largePicture(this);">
+                
+            </div>
+        </div>
+
+        <div class="resize-gallery-box">
+            <div class="gal-pics">
+                    <img src="./images/gallery/dubrovnik.jpg" alt="Dubrovnik, Croatia" width="600" height="400" onclick="largePicture(this);">
+                
+            </div>
+        </div>
+
+        <div class="resize-gallery-box">
+            <div class="gal-pics">
+                    <img src="./images/gallery/valbone.jpg" alt="Snow in Valbone" width="600" height="400" onclick="largePicture(this);">
+               
             </div>
         </div>
         
         
         <div class="resize-gallery-box">
             <div class="gal-pics">
-                <a href="./images/gallery/valbone-water.jpg">
-                    <img src="./images/gallery/valbone-water.jpg" alt="Water in Valbone" width="600" height="400">
-                </a>
-                <div class="gal-descrip">A water source in Valbone
-                    
-                </div>
+                    <img src="./images/gallery/valbone-water.jpg" alt="Water in Valbone" width="600" height="400" onclick="largePicture(this);">
+
+                
             </div>
         </div>
         
+        
         <div class="resize-gallery-box">
             <div class="gal-pics">
-                <a href="./images/gallery/me.jpg">
-                    <img src="./images/gallery/me.jpg" alt="" width="600" height="400">
-                </a>
-                <div class="gal-descrip">Random picture of me in Lake George
-                    
-                </div>
+                <img src="./images/gallery/yankee.jpg" alt="Yankee game 2018" width="600" height="400" onclick="largePicture(this);">
+
+                
+            </div>
+
+        </div>
+
+        <div class="resize-gallery-box">
+            <div class="gal-pics">
+                <img src="./images/gallery/Sarande.jpg" alt="Overlooking Saranda, Albania" width="600" height="400" onclick="largePicture(this);">
+
+                
             </div>
         </div>
 
+        <div class="resize-gallery-box">
+            <div class="gal-pics">
+                <img src="./images/gallery/jazz bar.jpg" alt="Jazz bar in Kotor, Montenegro" width="600" height="400" onclick="largePicture(this);">
+
+                
+            </div>
+        </div>
+        
         <div class="clearfix"></div>
 
-        <div style="padding: 10px;">
-            <p> Some random pics I've taken over the years on various trips. This was a good experiment in using relative sizes for boxes and playing with media controls for the first time.</p>
-
-            <p> Will probably use the same functions on the project tab to get it to behave</p>
-
+                  
+        <div class="gal-box">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
         </div>
-        
-        
 
-    
+
+
+        <div class="footer">
+            © Taulant Ismailgeci 2022 - All icons provided by <a style="color:white" target="_blank" href="https://icons8.com">Icons8.</a>    
+        </div>
 
     </body>
 

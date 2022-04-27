@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/full-body.jpg);
+    background-image: url(./images/full-body-trimmed.png);
     margin:0;
     padding: 0;
     padding-left: 100px;
@@ -40,10 +40,7 @@ body{
     -webkit-text-stroke: .5px white;
 }
 
-p{
-    background-color: white;
 
-}
 
 #face {
     height: 35%;
@@ -56,15 +53,6 @@ p{
     box-shadow: 5px 10px rgb(54, 52, 52);
 }
 
-#poop {
-    text-align: center;
-    background-color: white;
-    width: 50%;
-}
-
-#poop h3 {
-    background-color: #4a0221;
-}
 
 ul {
     margin: 0%;
@@ -79,7 +67,6 @@ ul {
     height: 100%;
     margin: 0;
     padding: 0;
-    /* z-index: 1; */
 }
 
 #main-menu ul li {
@@ -102,33 +89,43 @@ ul {
     font-size: 64px;
 }
 
-#bar-socials {
-    float: left;
-}
-
-#socialbar-container {
-    bottom: 15px;
-    padding-bottom: 2%;
-    position: absolute;
-    float: left;
-}
-
-.socialbar {
-    float: left;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #532244;
-    width: 5vw;
-    padding: 0;
-    margin: 0;
+    color:white;
     text-align: center;
-    display: inline-block;
-    vertical-align: bottom;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    list-style-type: none;
-    list-style: none;
-    list-style-image: none;
+    line-height: 4vh;
+    font-weight: 100;
+    font-size: 1.75vh;   
+    letter-spacing: -0.1em;
+    -webkit-text-stroke: 0 white;
 }
 
+.social-links {
+    color: white;
+    background-color: #532244;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 15vw;
+    position: fixed;
+    bottom: 4%;
+    left: 140px;
+    height: 70px;
+    width: 250px;
+}   
+
+.social-icon {
+    position: relative;
+    padding-top: 10px;
+    margin-left: 10px;
+    height: 60px;
+    font-size: 0;
+}
